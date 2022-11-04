@@ -1,0 +1,2085 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundd"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comforta"
+                android:text="Altudo"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"
+                android:layout_marginTop="40dp"
+                android:textStyle="italic"
+                android:layout_marginLeft="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/profile"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_menu_black_24dp"
+                android:layout_marginTop="37dp"
+                android:layout_marginRight="27dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montreg"
+                android:text="Halo, Alfarizhi"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/textView5"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/montbold"
+                android:text="Mau Baca Buku Apa Hari Ini?"
+                android:textColor="#ffffff"
+                android:textSize="24dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/book"
+                android:layout_marginRight="7dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/montbold"
+                android:text="Daftar Buku"
+                android:textColor="@color/background"
+                android:textSize="18dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bodoamatid"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#f5f8ff"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="-8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="350dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:fontFamily="@font/itim"
+                                android:text="Sebuah Seni Untuk Bersikap Bodo Amat"
+                                android:textColor="#0B3F79"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="2dp"
+                                android:fontFamily="@font/montreg"
+                                android:text="Mark Manson"
+                                android:textColor="#0B3F79"
+                                android:textSize="10dp" />
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="106dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="-51dp"
+                                android:src="@drawable/bodoamat" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="-20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_star_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="3,95"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="3dp"
+                                    android:src="@drawable/ic_rate_review_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="472rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_visibility_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="30rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bumimanusia"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#f5f8ff"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="-8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="350dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:fontFamily="@font/itim"
+                                android:text="Bumi Manusia"
+                                android:textColor="#0B3F79"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="2dp"
+                                android:fontFamily="@font/montreg"
+                                android:text="Pramoedya Ananta Toer"
+                                android:textColor="#0B3F79"
+                                android:textSize="10dp" />
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="100dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="-30dp"
+                                android:src="@drawable/bumimanusia" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="-20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_star_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="4,39"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="3dp"
+                                    android:src="@drawable/ic_rate_review_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="15 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_visibility_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="1,6 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/negerimenara"
+                app:cardBackgroundColor="#f5f8ff"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="-8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="350dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:fontFamily="@font/itim"
+                                android:text="Negeri 5 Menara"
+                                android:textColor="#0B3F79"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="2dp"
+                                android:fontFamily="@font/montreg"
+                                android:text="Ahmad Fuadi"
+                                android:textColor="#0B3F79"
+                                android:textSize="10dp" />
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="100dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="-30dp"
+                                android:src="@drawable/negeri5menara" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="-20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_star_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="4,09"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="3dp"
+                                    android:src="@drawable/ic_rate_review_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="11 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_visibility_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="1,1 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/laskarpelangi"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#f5f8ff"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="-8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="350dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:fontFamily="@font/itim"
+                                android:text="Laskar Pelangi"
+                                android:textColor="#0B3F79"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="2dp"
+                                android:fontFamily="@font/montreg"
+                                android:text="Andrea Hirata"
+                                android:textColor="#0B3F79"
+                                android:textSize="10dp" />
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="100dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="-30dp"
+                                android:src="@drawable/laskarpelangii" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="-20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_star_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="4,19"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="3dp"
+                                    android:src="@drawable/ic_rate_review_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="25 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_visibility_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="3,1 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/sangpemimpi"
+                app:cardBackgroundColor="#f5f8ff"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="-8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="350dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:fontFamily="@font/itim"
+                                android:text="Sang Pemimpi"
+                                android:textColor="#0B3F79"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="2dp"
+                                android:fontFamily="@font/montreg"
+                                android:text="Andrea Hirata"
+                                android:textColor="#0B3F79"
+                                android:textSize="10dp" />
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="100dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="-30dp"
+                                android:src="@drawable/sangpemimpi" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="-20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_star_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="4,12"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="3dp"
+                                    android:src="@drawable/ic_rate_review_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="15 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_visibility_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="1,1 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dilan"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#f5f8ff"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="-8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="350dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:fontFamily="@font/itim"
+                                android:text="Dilan 1990"
+                                android:textColor="#0B3F79"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="2dp"
+                                android:fontFamily="@font/montreg"
+                                android:text="Pidi Baiq"
+                                android:textColor="#0B3F79"
+                                android:textSize="10dp" />
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="100dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="-30dp"
+                                android:src="@drawable/dilan1990" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="-20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_star_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="4,12"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="3dp"
+                                    android:src="@drawable/ic_rate_review_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="13 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_visibility_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="1,4 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/limacm"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#f5f8ff"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="-8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="350dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:fontFamily="@font/itim"
+                                android:text="5 CM"
+                                android:textColor="#0B3F79"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="2dp"
+                                android:fontFamily="@font/montreg"
+                                android:text="Donny Dhirgantoro"
+                                android:textColor="#0B3F79"
+                                android:textSize="10dp" />
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="100dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="-30dp"
+                                android:src="@drawable/limacm" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="-20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_star_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="3,86"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="3dp"
+                                    android:src="@drawable/ic_rate_review_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="13 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_visibility_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="1,4 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/daunjatuh"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#f5f8ff"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="-8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="350dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:fontFamily="@font/itim"
+                                android:text="Daun Yang Jatuh Tak Pernah Membenci Angin"
+                                android:textColor="#0B3F79"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="2dp"
+                                android:fontFamily="@font/montreg"
+                                android:text="Tere Liye"
+                                android:textColor="#0B3F79"
+                                android:textSize="10dp" />
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="106dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="-51dp"
+                                android:src="@drawable/daunyangjatuh" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="-20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_star_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="4,00"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="3dp"
+                                    android:src="@drawable/ic_rate_review_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="13 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_visibility_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="1,1 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/searching"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#f5f8ff"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="-8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="350dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:fontFamily="@font/itim"
+                                android:text="Man's Searching For Meaning"
+                                android:textColor="#0B3F79"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="2dp"
+                                android:fontFamily="@font/montreg"
+                                android:text="Viktor E. Frankl"
+                                android:textColor="#0B3F79"
+                                android:textSize="10dp" />
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="100dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="-30dp"
+                                android:src="@drawable/menmeaning" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="-20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_star_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="4,36"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="3dp"
+                                    android:src="@drawable/ic_rate_review_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="370 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_visibility_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="19 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#f5f8ff"
+                android:id="@+id/great"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="-8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="350dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:fontFamily="@font/itim"
+                                android:text="Good To Great"
+                                android:textColor="#0B3F79"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="2dp"
+                                android:fontFamily="@font/montreg"
+                                android:text="James C. Collins"
+                                android:textColor="#0B3F79"
+                                android:textSize="10dp" />
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="100dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="-30dp"
+                                android:src="@drawable/great" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="-20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_star_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="4,10"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="3dp"
+                                    android:src="@drawable/ic_rate_review_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="125 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_visibility_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="4,3 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/powerhabit"
+                app:cardBackgroundColor="#f5f8ff"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="-8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="350dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:fontFamily="@font/itim"
+                                android:text="The Power of Habit"
+                                android:textColor="#0B3F79"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="2dp"
+                                android:fontFamily="@font/montreg"
+                                android:text="Charles Duhigg"
+                                android:textColor="#0B3F79"
+                                android:textSize="10dp" />
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="100dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="-30dp"
+                                android:src="@drawable/habit" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="-20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_star_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="4,10"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="3dp"
+                                    android:src="@drawable/ic_rate_review_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="323 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_visibility_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="16 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tentangkamu"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#f5f8ff"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="-8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="350dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:fontFamily="@font/itim"
+                                android:text="Tentang Kamu"
+                                android:textColor="#0B3F79"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="2dp"
+                                android:fontFamily="@font/montreg"
+                                android:text="Tere Liye"
+                                android:textColor="#0B3F79"
+                                android:textSize="10dp" />
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="100dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="-30dp"
+                                android:src="@drawable/tentangkamu" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="-20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_star_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="4,45"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="3dp"
+                                    android:src="@drawable/ic_rate_review_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="3,8 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_visibility_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="0,5 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/gariswaktu"
+                app:cardBackgroundColor="#f5f8ff"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="-8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="350dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:fontFamily="@font/itim"
+                                android:text="Garis Waktu"
+                                android:textColor="#0B3F79"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="2dp"
+                                android:fontFamily="@font/montreg"
+                                android:text="Fiersa Besari"
+                                android:textColor="#0B3F79"
+                                android:textSize="10dp" />
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="100dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="-30dp"
+                                android:src="@drawable/gariswaktu" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="-20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_star_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="4,18"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="3dp"
+                                    android:src="@drawable/ic_rate_review_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="2,9 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_visibility_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="0,2 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/anakkuat"
+                app:cardBackgroundColor="#f5f8ff"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="-8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="350dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:fontFamily="@font/itim"
+                                android:text="Si Anak Kuat"
+                                android:textColor="#0B3F79"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="2dp"
+                                android:fontFamily="@font/montreg"
+                                android:text="Tere Liye"
+                                android:textColor="#0B3F79"
+                                android:textSize="10dp" />
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="100dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="-30dp"
+                                android:src="@drawable/anakkuat" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="-20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_star_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="4,25"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="3dp"
+                                    android:src="@drawable/ic_rate_review_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="1,5 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_visibility_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="0,1 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#f5f8ff"
+                android:id="@+id/filosofiteras"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="-8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="350dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:fontFamily="@font/itim"
+                                android:text="Filosofi Teras"
+                                android:textColor="#0B3F79"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="2dp"
+                                android:fontFamily="@font/montreg"
+                                android:text="Henry Manamping"
+                                android:textColor="#0B3F79"
+                                android:textSize="10dp" />
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="100dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="-30dp"
+                                android:src="@drawable/filosofiteras" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="100dp"
+                                android:layout_marginTop="-20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_star_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="4,39"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="3dp"
+                                    android:src="@drawable/ic_rate_review_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="1,5 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="2dp"
+                                    android:src="@drawable/ic_visibility_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:fontFamily="@font/montreg"
+                                    android:text="0,3 rb"
+                                    android:textColor="#1BBAA6"
+                                    android:textSize="13dp" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/montreg"
+                android:textStyle="italic"
+                android:text="Sumber : goodreads.com"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

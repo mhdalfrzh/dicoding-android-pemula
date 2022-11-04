@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundd"
+    tools:context=".AnakActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:id="@+id/backaanak"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_arrow_back_black_24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-25dp"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="410dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="25dp"
+                    android:src="@drawable/anakkuatsh"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="-40dp"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="195dp"
+                        android:src="@drawable/ic_star_black_24dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/montreg"
+                        android:text="4,25"
+                        android:textColor="#1BBAA6"
+                        android:textSize="15dp"
+                        android:layout_marginTop="2dp"
+                        app:layout_constraintStart_toEndOf="@+id/imageView4"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_rate_review_black_24dp"
+                        android:layout_marginLeft="27dp"
+                        app:layout_constraintStart_toEndOf="@+id/textView8"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montreg"
+                        android:text="1,5 rb"
+                        android:textColor="#1BBAA6"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="5dp"
+                        app:layout_constraintStart_toEndOf="@+id/imageView6"
+                        tools:layout_editor_absoluteY="0dp"
+                        tools:ignore="MissingConstraints" />
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="19dp"
+                        android:src="@drawable/ic_visibility_black_24dp"
+                        app:layout_constraintStart_toEndOf="@+id/textView6"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montreg"
+                        android:layout_marginLeft="5dp"
+                        android:text="0,1 rb"
+                        android:textColor="#1BBAA6"
+                        android:textSize="15dp"
+                        app:layout_constraintStart_toEndOf="@+id/imageView5"
+                        tools:ignore="MissingConstraints" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Penulis                       : Tere Liye"
+                        android:textColor="@color/background"
+                        android:fontFamily="@font/montreg"
+                        android:layout_marginTop="30dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jumlah Halaman    : 398 Halaman"
+                        android:textColor="@color/background"
+                        android:fontFamily="@font/montreg"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montreg"
+                        android:text="Penerbit                     : Republika Penerbit"
+                        android:textColor="@color/background"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montreg"
+                        android:text="Tahun Terbit             : 2018"
+                        android:textColor="@color/background"
+                        android:layout_marginTop="5dp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montreg"
+                    android:padding="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Buku ini bercerita tentang Amel, yang mempunyai nama lengkap Amelia. Amel adalah anak bungsu dari Bapak Syahdan dan Ibu Nurmas dan mempunyai tiga orang kakak yaitu, Kak Eli (Eliana), Kak Pukat dan Kak Burlian. Ketiga kakak Amel ini juga memiliki cerita di bukunya masing-masing dalam satu serial."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montreg"
+                    android:padding="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="-15dp"
+                    android:text="Pada masa kecilnya Amel memiliki pengalaman yang menarik, memiliki kedua orang tua yang menanamkan nilai-nilai yang baik tentang kehidupan, sosial dan nilai-nilai agama. Amel dan keluarganya tinggal di sebuah lembah, yang terletak di perkampungan yang sangat indah. Dari kecil Amelia disebut oleh mamak dan bapaknya “Amelia si gadis bungsu yang kuat”. Terlahir menjadi bungsu, membuat ia tidak terima dengan kenyataan, selalu ingin bertukar posisi dengan kakak sulungnya, Eliana. Baginya menjadi bungsu hanyalah korban perintah-perintah kakaknya, selalu disuruh-suruh dan selalu menjadi penunggu rumah. Selain memiliki kakak sulung yang selalu mengatur, Amelia juga memiliki dua kakak laki-laki yang tak kalah menyebalkanya dengan Eliana, yang setiap hari menjahili dan meledek Amelia, kakak kedua Pukat si anak pandai, dan si Burlian si anak spesial."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montreg"
+                    android:padding="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="-15dp"
+                    android:text="Dalam kisah Amelia ini, Tere Liye menyampaikan pesan moral tentang keharusan akan anak manusia untuk merantau dan menjelajah dunia luas demi menuntut ilmu, sekalipun ia anak perempuan dan bungsu pula. Itulah yang dilakukan Amelia, sekalipun Kak Pukat dan Burlian selalu mengatakan bahwa Amelia akan tetap jadi penunggu rumah, tidak akan pernah kemana-mana, tetap tinggal di kampung halaman."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montreg"
+                    android:padding="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="-15dp"
+                    android:textStyle="italic"
+                    android:text="Sumber : gramedia.com"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

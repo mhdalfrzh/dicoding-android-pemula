@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundd"
+    tools:context=".MenaraActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/menaraback"
+                android:padding="10dp"
+                android:src="@drawable/ic_arrow_back_black_24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-25dp"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="410dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/menarash"
+                    android:layout_marginLeft="25dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="-45dp"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="185dp"
+                        android:src="@drawable/ic_star_black_24dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/montreg"
+                        android:text="4,09"
+                        android:textColor="#1BBAA6"
+                        android:textSize="15dp"
+                        android:layout_marginTop="2dp"
+                        app:layout_constraintStart_toEndOf="@+id/imageView4"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_rate_review_black_24dp"
+                        android:layout_marginLeft="25dp"
+                        app:layout_constraintStart_toEndOf="@+id/textView8"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montreg"
+                        android:text="11 rb"
+                        android:textColor="#1BBAA6"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="5dp"
+                        app:layout_constraintStart_toEndOf="@+id/imageView6"
+                        tools:layout_editor_absoluteY="0dp"
+                        tools:ignore="MissingConstraints" />
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="18dp"
+                        android:src="@drawable/ic_visibility_black_24dp"
+                        app:layout_constraintStart_toEndOf="@+id/textView6"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montreg"
+                        android:layout_marginLeft="5dp"
+                        android:text="1,1 rb"
+                        android:textColor="#1BBAA6"
+                        android:textSize="15dp"
+                        app:layout_constraintStart_toEndOf="@+id/imageView5"
+                        tools:ignore="MissingConstraints" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Penulis                       : Ahmad Fuadi"
+                        android:textColor="@color/background"
+                        android:fontFamily="@font/montreg"
+                        android:layout_marginTop="30dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jumlah Halaman    : 423 Halaman"
+                        android:textColor="@color/background"
+                        android:fontFamily="@font/montreg"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montreg"
+                        android:text="Penerbit                     : PT. Gramedia Pusat"
+                        android:textColor="@color/background"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montreg"
+                        android:text="Tahun Terbit             : 2009"
+                        android:textColor="@color/background"
+                        android:layout_marginTop="5dp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montreg"
+                    android:padding="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Affandi Abdul Rachman memulai film dari sebuah desa di pinggir Danau Maninjau dengan memerlihatkan kehidupan Alif yang serba sederhana dengan Amak dan Ayah. Sekalipun hidup dalam struktur sosial konvensional, Alif dan sahabatnya, Randai, tidak berpikiran seperti rekan-rekan sebayanya, mereka memiliki mimpi yang tinggi. Alif berniat melanjutkan pendidikan ke sebuah SMA di Bandung, dilanjut dengan memasuki kampus idamannya, ITB. Sayangnya, Amak tidak sepemikiran dengan putra sulungnya ini. Amak menginginkan Alif untuk memasuki pondok pesantren di Ponorogo, Jawa Timur, bernama Pondok Madani. Walau terasa berat harus merelakan mimpinya terkubur, Alif merasa wajib mendengarkan perkataan orang tuanya. Bagaimanapun, orang tua mengetahui apa yang terbaik untuk anaknya."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montreg"
+                    android:padding="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="-15dp"
+                    android:text="Ditemani sang Ayah, Alif berangkat mengikuti ujian ke Ponorogo. Hatinya remuk mengetahui keadaan pondok yang jauh dari kesan ideal, belum lagi dengan keharusan mundur setahun demi mengikuti kelas adaptasi. Alif mencoba untuk bertahan, setidaknya hingga tahun pertama berlalu. Surat-surat yang dikirim oleh Randai semakin menggoda iman Alif untuk segera kabur ke Bandung. Namun seiring dengan berjalannya waktu, Pondok Madani terasa bagaikan rumah kedua yang nyaman bagi Alif terlebih dengan kehadiran Baso, Atang, Said, Raja, dan Dulmajid. Mereka berenam kerap berkumpul di bawah menara masjid dan menamakan diri mereka sebagai “Sahibul Menara”."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montreg"
+                    android:padding="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="-15dp"
+                    android:textStyle="italic"
+                    android:text="Sumber : cinetariz.blogspot.com"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

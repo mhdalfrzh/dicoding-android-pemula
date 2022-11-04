@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundd"
+    tools:context=".LaskarActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/laskarback"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_arrow_back_black_24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-25dp"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="410dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/laskarsh"
+                    android:layout_marginLeft="25dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="-45dp"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="185dp"
+                        android:src="@drawable/ic_star_black_24dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/montreg"
+                        android:text="4,19"
+                        android:textColor="#1BBAA6"
+                        android:textSize="15dp"
+                        android:layout_marginTop="2dp"
+                        app:layout_constraintStart_toEndOf="@+id/imageView4"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_rate_review_black_24dp"
+                        android:layout_marginLeft="25dp"
+                        app:layout_constraintStart_toEndOf="@+id/textView8"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montreg"
+                        android:text="25 rb"
+                        android:textColor="#1BBAA6"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="5dp"
+                        app:layout_constraintStart_toEndOf="@+id/imageView6"
+                        tools:layout_editor_absoluteY="0dp"
+                        tools:ignore="MissingConstraints" />
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="18dp"
+                        android:src="@drawable/ic_visibility_black_24dp"
+                        app:layout_constraintStart_toEndOf="@+id/textView6"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montreg"
+                        android:layout_marginLeft="5dp"
+                        android:text="3,1 rb"
+                        android:textColor="#1BBAA6"
+                        android:textSize="15dp"
+                        app:layout_constraintStart_toEndOf="@+id/imageView5"
+                        tools:ignore="MissingConstraints" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Penulis                       : Andrea Hirata"
+                        android:textColor="@color/background"
+                        android:fontFamily="@font/montreg"
+                        android:layout_marginTop="30dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jumlah Halaman    : 532 Halaman"
+                        android:textColor="@color/background"
+                        android:fontFamily="@font/montreg"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montreg"
+                        android:text="Penerbit                     : Bentang Pustaka"
+                        android:textColor="@color/background"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montreg"
+                        android:text="Tahun Terbit             : 2005"
+                        android:textColor="@color/background"
+                        android:layout_marginTop="5dp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montreg"
+                    android:padding="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Novel ini mengisahkan tentang sepuluh anak Belitung yang tergabung dalam Laskar Pelangi mereka adalah Mahar, Ikal, Lintang, Harun, Syahdan, A Kiong, Trapani, Borek, Kucai dan satu-satunya wanita yaitu Sahara. Cerita ini mengisahkan tentang kehidupan di pedalaman Belitung yang kontras dan yang kaya akan timah, namun masyrakatnya tidak mampu memenuhi kehidupannya sehari-hari. Novel ini juga menceritakan tentang semangat juang dari anak-anak kampung Belitung untuk mengubah nasib mereka melalui sekolah. Sebagian besar orang tua mereka lebih senang melihat anak-anaknya membantunya dari pada belajar di sekolah."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montreg"
+                    android:padding="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="-15dp"
+                    android:text="Kesulitan terus menerus membayangi sekolah kampung itu, sekolah yang dibangun atas jiwa ikhlas dan kepeloporan dua orang guru yaitu seorang Kepala Sekolah yang sudah tua yang bernama bapak Harfan Efendy Noor dan ibu guru muda yang bernama ibu Muslimah Hafsari yang juga sangat miskin berusaha mempertahankan semangat besar pendidikan. Sekolah yang nyaris dibubarkan oleh pengawas sekolah Depdikbud Sumsel karena kekurangan murid itu terselamatkan berkat seorang anak yang sepanjang masa bersekolah yang tak pernak mendapatkan rapot."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montreg"
+                    android:padding="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="-15dp"
+                    android:text="Keajaiban seakan terjadi setiap hari di sekolah yang dari jauh tampak seperti bangunan yang akan roboh itu. Semuanya terjadi karena sejak hari pertama kelas satu sang kepala sekolah dan sang ibu guru muda yang hanya berijazah SKP (Sekolah Kepandaian Putri). Mereka berdua saling bahu membahu membesarkan hati anak-anak tadi agar percaya diri, berani berkompetisi, agar menghargai dan menempatkan pendidikan sebagai hal yang sangat penting dalam hidup ini. Kedua guru itu juga merupakan guru yang ulung sehingga menghasilkan seorang murid yang sangat pintar dan mereka mampu mengasah bakat beberapa murid lainnya. Pak Harfan dan buk Mus juga mengajarkan cinta sesama dan mereka amat menyayangi kesepuluh muridnya. Kedua guru miskin itu member julukan kesepuluh murid itu sebagai laskar pelangi."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montreg"
+                    android:padding="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="-15dp"
+                    android:textStyle="italic"
+                    android:text="Sumber : tulismenulis.com"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

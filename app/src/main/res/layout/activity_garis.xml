@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundd"
+    tools:context=".GarisActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:id="@+id/garisback"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_arrow_back_black_24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-25dp"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="410dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/garissh"
+                    android:layout_marginLeft="25dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="-45dp"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="200dp"
+                        android:src="@drawable/ic_star_black_24dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/montreg"
+                        android:text="4,18"
+                        android:textColor="#1BBAA6"
+                        android:textSize="15dp"
+                        android:layout_marginTop="2dp"
+                        app:layout_constraintStart_toEndOf="@+id/imageView4"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_rate_review_black_24dp"
+                        android:layout_marginLeft="25dp"
+                        app:layout_constraintStart_toEndOf="@+id/textView8"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montreg"
+                        android:text="2,9 rb"
+                        android:textColor="#1BBAA6"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="5dp"
+                        app:layout_constraintStart_toEndOf="@+id/imageView6"
+                        tools:layout_editor_absoluteY="0dp"
+                        tools:ignore="MissingConstraints" />
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="18dp"
+                        android:src="@drawable/ic_visibility_black_24dp"
+                        app:layout_constraintStart_toEndOf="@+id/textView6"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montreg"
+                        android:layout_marginLeft="5dp"
+                        android:text="0,2 rb"
+                        android:textColor="#1BBAA6"
+                        android:textSize="15dp"
+                        app:layout_constraintStart_toEndOf="@+id/imageView5"
+                        tools:ignore="MissingConstraints" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Penulis                       : Fiersa Besari"
+                        android:textColor="@color/background"
+                        android:fontFamily="@font/montreg"
+                        android:layout_marginTop="30dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jumlah Halaman    : 211 Halaman"
+                        android:textColor="@color/background"
+                        android:fontFamily="@font/montreg"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montreg"
+                        android:text="Penerbit                     : Mediakita"
+                        android:textColor="@color/background"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montreg"
+                        android:text="Tahun Terbit             : 2016"
+                        android:textColor="@color/background"
+                        android:layout_marginTop="5dp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montreg"
+                    android:padding="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Seperti judulnya buku ini menceritakan sebuah garis waktu proses bagaimana menghapus sebuah luka yang mendalam. Buku ini merupakan sebuah rangkuman tulisan sang penulis yang selama 2012-2016 aktif menulis di beberapa sosial media. Buku ini merupakan representasi peristiwa penting penulis yang mengajarkan kita tentang mencintai dan keikhlasan."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montreg"
+                    android:padding="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="-15dp"
+                    android:text="Jika melihat covernya buku ini cukup menarik, kalau menurutku covernya elegan. Buku ini menceritakan kisah asmara dari perkenalan, jatuh cinta, hingga perpisahan. Disini kita akan tahu  sudut pandang sesorang yang mencintai perempuan yang telah memiliki kekasih. Bagaimana mencoba tersenyum dengan keadaan sampai akhirnya situasi berpihak. Perjuangan untuk mencintai dan meyakinkan walaupun pada akhirnya harus diakhiri dengan perpisahan. Buku ini mengajarkan bahwa cinta tak harus memiliki."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montreg"
+                    android:padding="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="-15dp"
+                    android:text="Buku ini layak untuk dibaca bagi mereka yang sedang menyimpan rasa bagi seseorang begitu juga bagi mereka yang sedang berusaha move on. Tapi jangan baper jika membaca buku ini karena akan diakhiri dengan sad ending."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montreg"
+                    android:padding="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="-15dp"
+                    android:textStyle="italic"
+                    android:text="hindasah19.blogspot.com"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
